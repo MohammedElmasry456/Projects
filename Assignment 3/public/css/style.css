@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(163, 118, 118);
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content div {
+    text-align: center;
+}
+
+.content img {
+    width: 300px;
+    height: 300px
+}
+
+.header {
+    text-align: center;
+
+}
+
+.header a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: inline-block;
+}
