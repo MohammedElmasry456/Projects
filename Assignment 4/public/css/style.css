@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/6006892.jpg");
+    background-size: cover;
+
+}
+
+header {
+    background-color: brown;
+    padding: 7px;
+}
+
+header [type="submit"] {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    width: 150px;
+    border-radius: 4px;
+    outline: none;
+}
+
+header [type="text"] {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    padding: 5px;
+}
+
+p {
+    background-color: rgb(26, 81, 26);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.content {
+    display: none;
+}
