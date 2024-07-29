@@ -39,6 +39,9 @@ app.get("/weather", (req, res) => {
   });
 });
 
+app.get("*", (req, res) => {
+  res.send("Error 404");
+});
 app.listen(port, () => {
   console.log("Port 3000 ON");
 });
